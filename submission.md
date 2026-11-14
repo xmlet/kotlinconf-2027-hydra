@@ -30,9 +30,9 @@ Instead, reactive signals, event modifiers, and server interactions are
 expressed through statically typed Kotlin constructs and compile-time function
 references to backend route handlers.
 
-We present a catalog of Backend-driven Reactive Hypermedia Control (BRHC)
-patterns, ranging from live SSE state synchronization and active search to
-formless submissions and infinite scrolling.
+We demonstrate well-defined reactive web interaction patterns, from live state
+synchronization with SSE and active search to formless submissions and infinite
+scrolling.
 To demonstrate real-world feasibility, we migrated the official Kotlin Spring
 PetClinic application from traditional Thymeleaf page reloads to reactive
 hypermedia controls.
@@ -41,8 +41,6 @@ traditional SSR and a React SPA: HtmlFlow with Datastar achieved near-instant
 initial load times matching SSR, while delivering significantly lower latency
 and reduced network transfer during interactive workflows.
 
-Attendees will learn how to build real-time, interactive web applications in
-pure Kotlin without an SPA framework or a complex frontend build toolchain.
 Come discover how to tame the frontend Hydra, eliminate client-side hydration
 overhead, and keep your application logic where it belongs—on the server,
 backed by Kotlin's type safety.
@@ -98,6 +96,12 @@ Web development; Kotlin libraries and ecosystem;
    and Lighthouse scores) comparing SSR, reactive hypermedia, and SPAs.
 
 ### What unique perspective do you bring to the topic?
+KotlinConf 2025’s “Full Stream Ahead” demonstrated how http4k and Datastar
+support reactive server-rendered interfaces.
+Our session builds on that direction, shifting the focus to authoring reactive
+interactions through a statically typed Kotlin DSL rather than string-based
+attributes and inline expressions.
+
 As the authors of the HtmlFlow Kotlin DSL and researchers behind the
 Backend-driven Reactive Hypermedia Controls (BRHC) framework, we bring both
 deep language design experience and empirical research to web development.
