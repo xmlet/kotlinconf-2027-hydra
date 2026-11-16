@@ -12,13 +12,13 @@ Datastar
 ### Description / Abstract
 Modern web development has become increasingly dominated by Single-Page
 Applications (SPAs) and heavy client-side JavaScript.
-While SPAs deliver fluid user experiences, they impose high cognitive and
-maintenance costs: bloated bundles, hydration penalties, duplicated business
-logic, and disjointed client-server architectures.
-Tools like htmx and Datastar have revived interest in server-centric
-architectures through hypermedia-driven web development, but their reliance
-on untyped HTML attributes, inline JavaScript, and magic string URLs
-introduces fragility and escapes compiler verification.
+While SPAs enable fluid user experiences, they can also introduce additional
+complexity, including larger bundles, hydration overhead, duplicated business
+logic, and less cohesive client-server architectures.
+Technologies like htmx and Datastar have revived interest in server-centric
+architectures through Hypermedia-Driven Applications (HDAs) development, but
+their reliance on untyped HTML attributes, inline JavaScript, and magic string
+URLs introduces fragility and escapes compiler verification.
 
 What if we could achieve the reactive responsiveness of modern SPAs with the
 simplicity of server-side rendering, fully verified by Kotlin's type system?
